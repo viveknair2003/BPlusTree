@@ -439,7 +439,7 @@ class bptreeone{
         Scanner i=new Scanner(System.in);
         bptreeone op=new bptreeone();
         int choice;
-        System.out.println("Enter the degree of the b+ tree: ");
+        System.out.println("Enter the order of the b+ tree: ");
         int order=i.nextInt();
         int a=0;
         boolean isnonode;
